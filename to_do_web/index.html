@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yapılacaklar Listesi ve Alarm</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Yapılacaklar Listesi ve Alarm</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkında</a></li>
+            <li><a href="#">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Yapılacaklar Listesi</h2>
+        <form id="todoForm">
+          <input
+            type="text"
+            id="todoInput"
+            placeholder="Yapılacak işi girin..."
+            required
+          />
+          <button type="submit">Ekle</button>
+        </form>
+        <ul id="todoList"></ul>
+      </section>
+
+      <section>
+        <h2>Alarm Kur</h2>
+        <form id="alarmForm">
+          <label for="alarmTime">Alarm zamanı:</label>
+          <input type="time" id="alarmTime" required />
+          <button type="submit">Alarmı Kur</button>
+        </form>
+
+        <div id="alarmMessage"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

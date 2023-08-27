@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+section {
+  width: 45%;
+}
+
+section h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form input[type="text"],
+form input[type="time"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+#alarmMessage {
+  margin-top: 20px;
+  font-size: 18px;
+}
